@@ -35,6 +35,7 @@ export function Navbar() {
     } else {
       document.documentElement.classList.remove("simple-view");
     }
+    window.dispatchEvent(new Event("ak_simple_view_changed"));
   };
 
   return (
