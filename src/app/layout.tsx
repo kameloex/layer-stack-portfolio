@@ -19,6 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kameloex.github.io"),
   title: `${siteConfig.name} — ${siteConfig.role} | Alexandria, Egypt`,
   description: `${siteConfig.name} is a ${siteConfig.role} based in Alexandria, Egypt, specializing in responsive web platforms, interactive applications, and connected microcontroller systems.`,
   keywords: [

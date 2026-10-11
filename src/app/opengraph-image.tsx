@@ -17,84 +17,95 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: 80,
+          padding: "80px",
           backgroundColor: "#FFFFFF",
-          backgroundImage:
-            "linear-gradient(to right, rgba(8,11,16,0.04) 1px, transparent 1px), linear-gradient(to bottom, rgba(8,11,16,0.04) 1px, transparent 1px)",
-          backgroundSize: "40px 40px",
           color: "#080B10",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+        {/* Top Header Row */}
+        <div style={{ display: "flex", alignItems: "center" }}>
           <div
             style={{
-              width: 48,
-              height: 48,
-              borderRadius: "50%",
+              width: "48px",
+              height: "48px",
+              borderRadius: "24px",
               backgroundColor: "#080B10",
               color: "#FFFFFF",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: 20,
+              fontSize: "20px",
               fontWeight: 700,
-              border: "2px solid #77CFFF",
               fontFamily: "monospace",
+              marginRight: "16px",
             }}
           >
             AK
           </div>
           <div
             style={{
-              fontSize: 20,
+              display: "flex",
+              fontSize: "22px",
               fontWeight: 600,
-              fontFamily: "sans-serif",
               color: "#080B10",
             }}
           >
-            {siteConfig.name} — {siteConfig.role}
+            {`${siteConfig.name} — ${siteConfig.role}`}
           </div>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 900 }}>
+        {/* Middle Headline */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            maxWidth: "960px",
+          }}
+        >
           <div
             style={{
-              fontSize: 56,
+              display: "flex",
+              fontSize: "52px",
               fontWeight: 800,
               lineHeight: 1.1,
               letterSpacing: "-0.03em",
               color: "#080B10",
-              fontFamily: "sans-serif",
+              marginBottom: "24px",
             }}
           >
             {siteConfig.headline}
           </div>
           <div
             style={{
-              fontSize: 24,
+              display: "flex",
+              fontSize: "24px",
               color: "rgba(8,11,16,0.65)",
               lineHeight: 1.4,
-              fontFamily: "sans-serif",
             }}
           >
             {siteConfig.supportingLine}
           </div>
         </div>
 
+        {/* Bottom Footer Datum */}
         <div
           style={{
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            paddingTop: 32,
-            borderTop: "1px solid rgba(8,11,16,0.1)",
-            fontSize: 16,
+            paddingTop: "32px",
+            borderTop: "1px solid rgba(8,11,16,0.12)",
+            fontSize: "16px",
             fontFamily: "monospace",
             color: "rgba(8,11,16,0.5)",
           }}
         >
-          <div>ALEXANDRIA, EGYPT // SOFTWARE &amp; CONNECTED SYSTEMS</div>
-          <div style={{ color: "#005777", fontWeight: 600 }}>THE LAYER STACK</div>
+          <div style={{ display: "flex" }}>
+            ALEXANDRIA, EGYPT // SOFTWARE &amp; CONNECTED SYSTEMS
+          </div>
+          <div style={{ display: "flex", color: "#005777", fontWeight: 700 }}>
+            THE LAYER STACK
+          </div>
         </div>
       </div>
     ),
