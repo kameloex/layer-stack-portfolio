@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Three strictly constrained colors: White, Light Blue, Black */
+  --canvas: #FFFFFF;
+  --surface-subtle: #F5F7FA;
+  --surface-elevated: #F2F4F7;
+  
+  --ink: #080B10;
+  --ink-secondary: rgba(8, 11, 16, 0.65);
+  --ink-muted: rgba(8, 11, 16, 0.45);
+  --ink-hairline: rgba(8, 11, 16, 0.08);
+  --ink-border: rgba(8, 11, 16, 0.12);
+
+  /* Light blue accent and its structural/subtle shades only */
+  --accent: #77CFFF;
+  --accent-subtle: #D9F2FD;
+  --accent-structural: #4FA8DE;
+  --accent-dark: #005777;
+  --accent-container: #001E2E;
+
+  /* Inverted section tokens (Contact module) */
+  --inverted-bg: #080B10;
+  --inverted-text: #FFFFFF;
+  --inverted-secondary: rgba(255, 255, 255, 0.65);
+  --inverted-muted: rgba(255, 255, 255, 0.40);
+  --inverted-hairline: rgba(255, 255, 255, 0.12);
+  --inverted-border: rgba(255, 255, 255, 0.18);
+}
+
+/* Base resets & typography */
+html {
+  background-color: var(--canvas);
+  color: var(--ink);
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible focus rings complying with WCAG AA */
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #77CFFF;
+}
+
+/* Skip link styling */
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 9999;
+  background-color: var(--ink);
+  color: #FFFFFF;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: top 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.skip-to-content:focus {
+  top: 1rem;
+}
+
+/* Hairline border utilities */
+.hairline-b {
+  border-bottom: 1px solid var(--ink-hairline);
+}
+
+.hairline-t {
+  border-top: 1px solid var(--ink-hairline);
+}
+
+.hairline-all {
+  border: 1px solid var(--ink-hairline);
+}
+
+/* Tactile layer stack utilities */
+.layer-pane {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--ink-hairline);
+  box-shadow: 0 1px 3px rgba(8, 11, 16, 0.04), 0 6px 16px rgba(8, 11, 16, 0.03);
+}
+
+.layer-pane-subtle {
+  background: var(--surface-subtle);
+  border: 1px solid var(--ink-hairline);
+}
