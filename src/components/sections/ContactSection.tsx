@@ -6,6 +6,7 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/Icons";
 import { Mail, Check, Copy, ArrowUpRight } from "lucide-react";
+import { MotionReveal } from "@/components/ui/MotionReveal";
 
 export function ContactSection() {
   const [copied, setCopied] = useState(false);
@@ -23,7 +24,8 @@ export function ContactSection() {
       className="w-full py-24 sm:py-36 bg-[#080B10] text-white relative overflow-hidden"
     >
       <Container>
-        <div className="max-w-3xl space-y-8">
+        <MotionReveal>
+          <div className="max-w-3xl space-y-8">
           {/* Header Datum */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white border border-white/15 text-xs font-mono">
             <span className="h-2 w-2 rounded-full bg-[#77CFFF]"></span>
@@ -95,6 +97,7 @@ export function ContactSection() {
             </a>
           </div>
         </div>
+      </MotionReveal>
       </Container>
     </section>
   );
