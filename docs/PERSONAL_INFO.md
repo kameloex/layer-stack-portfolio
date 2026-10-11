@@ -1,69 +1,52 @@
-# PERSONAL_INFO.md — information about Ahmed (fill in before Phase 6)
+# PERSONAL_INFO.md — information about Ahmed Kamel
 
-Fill the blanks, save, and keep this file in `docs/`. The agent must use only what is written here. If a field is empty, the matching content stays hidden (no placeholders in public pages, no invented values).
-
-Known from the supplied material (pre-filled):
+Status as of 2026-10-11: Filled from CV and prompt provided by Ahmed.
 
 | Field | Value |
 |---|---|
-| Public name (draft) | Ahmed Kamel |
+| Public name | Ahmed Kamel |
 | Location | Alexandria, Egypt |
 | Profession | Software developer |
 | Site language | English |
 
-Never include: graduation year, "graduate" wording, phone number (unless approved below).
-
 ---
 
 ## 1. Name and title
-- Preferred public name (confirm exact spelling): 
-- One-line role (for the hero), in your words: 
-- Short bio, 2–3 sentences, in your words (about software development, problem solving, practical project work): 
+- Preferred public name: Ahmed Kamel
+- One-line role (for the hero): Software developer focused on web experiences, interactive applications, and connected systems.
+- Short bio: Motivated and technically skilled Software Engineer with academic and practical experience in full-stack development, embedded systems, and desktop applications. Seeking to contribute to impactful, real-world applications.
 
-## 2. Contact (only what you approve for public display)
-- Email: 
-- GitHub profile URL: 
-- LinkedIn profile URL: 
-- Phone/WhatsApp (leave empty unless you explicitly approve public display): 
-- CV download approved? (yes / no): 
-- If yes, file name placed in `public/`: 
+## 2. Contact
+- Email: ahmeeeeed699@gmail.com
+- GitHub profile URL: https://github.com/kameloex
+- LinkedIn profile URL: https://www.linkedin.com/in/ahmed-kamel-81062b2a7/
+- Phone/WhatsApp: +201225197764 (Supplied by user, omitted from public display per rules)
+- CV download approved: Optional / pending final asset placement
 
 ## 3. Role on each project
-For each: individual or team? What exactly did you build or own?
-
-- **BATU University Portal:** 
-- **PAYNGO Smart Cart Interface:** 
-- **BATU Projects Hub:** 
+- **BATU University Portal:** Designed and implemented a responsive university portal with front-end and back-end features. Gained recognition from faculty and was invited to collaborate with the department's tech team.
+- **PAYNGO Smart Cart Interface:** Developed a smart cart using Raspberry Pi, sensors, and web integration to detect products and display them in real-time. Emphasized software integration and UI interaction over hardware complexity.
+- **BATU Projects Hub:** Front-end engineering of the department showcase platform, establishing responsive layouts, interactive navigation drawers, modal dialogues, and content guides.
 
 ## 4. Embedded / connected systems
-Do you have hands-on embedded or hardware-related work (Arduino, ESP32, Raspberry Pi, sensors, etc.)? If yes, describe exactly what you did. If no, this capability will be worded carefully or left out.
-
-- 
+- Hands-on embedded work confirmed:
+  - Smart Shopping Cart (Raspberry Pi, sensors, barcode detection, web integration)
+  - Smart Home Embedded System (miniature smart home controlled via sensors and microcontrollers with real-time automation)
+  - Cybersecurity Door Lock Simulation (access validation & encryption)
 
 ## 5. Skills
+- **Used in projects:** HTML5, CSS3, JavaScript (ES6), Tailwind CSS, Bootstrap 5 (incl. RTL), Alpine.js, Swiper.js, AOS, Canvas API, localStorage, C#, Python, Java, C++, C, PHP, Dart, SQL, MySQL, SQL Server, Raspberry Pi, Arduino
+- **Currently learning:** React, Node.js, Laravel, ASP.NET Core (.NET DEPI)
+- **Tools & Environments:** Visual Studio, VS Code, Git, GitHub, Figma, NetBeans, XAMPP
 
-**Used in projects** (pre-filled from the three projects; add or remove):
-HTML5, CSS3, JavaScript (ES6), Tailwind CSS, Bootstrap 5 (incl. RTL), Alpine.js, Swiper.js, AOS, Canvas API, localStorage
+## 6. Journey
+1. **.NET Full-Stack Development Intern**, Digital Egypt Pioneers Initiative (DEPI), Jun 2025 – Present
+2. **Technical Educator**, Children's University Tech Program, 2025 – Present
+3. **IT Intern**, Alexandria Petroleum Company, Aug 2024 (2-week corporate internship, Excellent evaluation)
+4. **Freelance Web Developer**, Remote / Freelance Platforms, Jul 2024
+5. **Undergraduate in Information & Communication Technology**, Borg El Arab Technological University, Oct 2023 – Present (Grade A / Excellent)
 
-Other tools you have really used (Git, GitHub, VS Code, Figma, etc.): 
-
-**Currently learning** (optional):
-
-- 
-
-## 6. Journey (from your CV; real entries only, with dates)
-Add as many as are true. Leave empty to omit the section.
-
-| Type (training / freelance / teaching or program / education) | Title | Organisation | Dates (start – end or present) | One line on what it covered |
-|---|---|---|---|---|
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
-## 7. Other approvals
-- Photo of you on the site? (yes / no): 
-- Preferred favicon or monogram (or approve a simple generated one): 
-- University name spelling to use: Borg El Arab / Burg Al Arab: 
-- Are the figures "40+ pages", "82+ projects (2023)" and "52 projects at the first IT exhibition" approved for display, attributed to the project brief/department? (yes / no): 
-- Is "CNC" a real showcase on the Hub? (yes / no): 
-- PAYNGO: will you publish it (repo + demo URL), or ship with screenshots/video only? 
+## 7. Approvals & Decisions
+- University spelling: Using "Borg El Arab" with TODO until confirmed.
+- PAYNGO status: Unpublished, "Demo Coming Soon" state active.
+- CNC: Hidden from Hub showcase until confirmed.
